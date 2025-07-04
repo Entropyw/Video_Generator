@@ -38,8 +38,8 @@
    pip install -r requirements.txt
    ```
 4. 准备模型文件：
-   - 将SAM 模型权重（`sam_vit_h_4b8939.pth`）放置在项目根目录。
-   - 将中文 CLIP 模型 (`chinese-clip-vit-large-patch14-336px`) 放置在项目根目录。
+   - 将SAM 模型权重（`sam_vit_h_4b8939.pth`）放置在项目根目录。可在 HuggingFace 上下载。
+   - 将中文 CLIP 模型 (`chinese-clip-vit-large-patch14-336px`) 放置在项目根目录。可在 HuggingFace 上下载。
 5. 准备输入文件：
    - 提供一个 Excel 文件，包含以下列：`文本`（用于语音）、`时长`（秒）、`画面内容`（描述视频效果）、`备注`（可选补充描述）。
    - 提供一张图像文件（例如 `image.jpg`）。
