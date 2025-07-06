@@ -49,10 +49,3 @@ def extract_image_operation_info(input_sentence):
             break
     
     return result
-'''
-# 测试示例
-input_sentence_1 = "缓慢推入《海天情长》这幅画，并聚焦于海面平静的部分"
-input_sentence_2 = "镜头缓缓移动，展现《海天情长》这幅画中海浪轻柔拍打礁石的画面，强调“悄悄积蓄”的力量感，而非猛烈冲击。"
-input_sentence_3 = "画面的亮度可以适当提高，结尾处给人以希望和开阔感"
-print(extract_image_operation_info(input_sentence_2))
-'''
