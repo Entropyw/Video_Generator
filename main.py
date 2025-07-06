@@ -49,7 +49,7 @@ if image is None:
 sentences = []
 for sentence in dt["画面内容"]:
     sentences.append(extract_image_operation_info(sentence)["position"])
-results = find_text_regions("image.jpg", sentences)
+results = find_text_regions(args[2], sentences)
 commandlist = []
 for i in range(len(dt["画面内容"])):
     op = extract_image_operation_info(str(dt["画面内容"][i]) + str(dt["备注"][i]))
